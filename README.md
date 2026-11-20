@@ -42,3 +42,10 @@
 - [iPhone Scriptable 4.0 程式碼](scriptable/鄉民今日發病_爆肝獸4.0.js)
 - [24 個原創事件與 20 張人生卡](game/game-data.json)
 - **3.0 舊版保留，不要刪除。上方《每日發病 Cloud》不需修改。**
+
+## 小栗 1.0｜桌面精神助理
+
+- [完整 iPhone 安裝教學](companion/README.md)
+- [Scriptable 主程式](scriptable/小栗_桌面精神助理1.0.js)
+- [公開時段問候台詞](companion/public-lines.json)
+- **可打字聊天、話題記憶、相簿挑照片、選擇開啟每日兩次問候。** 資料存在本機；不屬於即時生成式 AI，沒有額外 API 費用。
