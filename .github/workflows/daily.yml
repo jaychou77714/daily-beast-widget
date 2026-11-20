@@ -1,8 +1,5 @@
-name: 爆肝獸每日內容更新
+name: 爆肝獸舊版手動備份（自動排程已停用）
 on:
-  schedule:
-    # UTC 16:21 = 台灣隔日 00:21；GitHub 排程可能延遲
-    - cron: '21 16 * * *'
   workflow_dispatch:
     inputs:
       target_date:
@@ -24,13 +21,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Generate daily joke and raising event
+      - name: Generate legacy Beast content on manual request only
         env:
           TARGET_DATE: ${{ inputs.target_date }}
         run: |
@@ -41,14 +36,14 @@ jobs:
             node scripts/generate.mjs
             node scripts/generate-game.mjs
           fi
-      - name: Commit both daily files
+      - name: Commit legacy data only if manually requested
         run: |
           git add data/today.json game/today.json
           if git diff --cached --quiet; then
-            echo "今日內容無新變更"
+            echo "無內容變更"
             exit 0
           fi
           git config user.name "daily-beast-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Daily Beast: joke and raising event"
+          git commit -m "Legacy Beast: manual update"
           git push
