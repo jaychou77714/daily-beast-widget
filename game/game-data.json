@@ -1,0 +1,833 @@
+{
+  "version": 1,
+  "title": "爆肝獸：場外生存日誌",
+  "source": "原創遊戲劇情，非巴哈即時文章",
+  "events": [
+    {
+      "id": "worker-01",
+      "category": "worker",
+      "title": "神秘的最後一改",
+      "story": "客戶說只改一個地方，下一秒又傳來二十張參考圖。",
+      "options": [
+        {
+          "text": "微笑說我研究看看",
+          "path": "worker",
+          "xp": 23,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "爆肝獸練成了專業假笑。"
+        },
+        {
+          "text": "先喝杯咖啡冷靜",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "咖啡杯比需求書更能理解你。"
+        }
+      ]
+    },
+    {
+      "id": "worker-02",
+      "category": "worker",
+      "title": "會議九頭蛇",
+      "story": "原訂十分鐘的會議，不斷長出新的議題。",
+      "options": [
+        {
+          "text": "拿出筆記迎戰",
+          "path": "worker",
+          "xp": 23,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "你打倒了九個問題，結果生出第十個。"
+        },
+        {
+          "text": "與椅子融為一體",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "成功偽裝成人體工學展示品。"
+        }
+      ]
+    },
+    {
+      "id": "worker-03",
+      "category": "worker",
+      "title": "消失的下班時間",
+      "story": "時鐘上的下班時間不見了，像被施了傳送術。",
+      "options": [
+        {
+          "text": "啟動地獄加班",
+          "path": "worker",
+          "xp": 23,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "經驗值增加，黑眼圈也增加。"
+        },
+        {
+          "text": "先讓自己休息",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "爆肝獸宣布暫停人間副本。"
+        }
+      ]
+    },
+    {
+      "id": "worker-04",
+      "category": "worker",
+      "title": "工地尺寸會走路",
+      "story": "昨天下午量好的尺寸，今天早上突然改變人生方向。",
+      "options": [
+        {
+          "text": "帶捲尺親自出征",
+          "path": "worker",
+          "xp": 23,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "量到了真相，也量到新的煩惱。"
+        },
+        {
+          "text": "先吃飽才去工地",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "這次至少沒有餓著肚子面對宇宙。"
+        }
+      ]
+    },
+    {
+      "id": "worker-05",
+      "category": "worker",
+      "title": "進度表大逃亡",
+      "story": "待辦清單有三十件，其中二十件寫著昨天要交。",
+      "options": [
+        {
+          "text": "逐項擊破",
+          "path": "worker",
+          "xp": 23,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "做完六項，待辦又新增八項。"
+        },
+        {
+          "text": "只完成最重要的一件",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "小小的勝利，也是今日傳說。"
+        }
+      ]
+    },
+    {
+      "id": "worker-06",
+      "category": "worker",
+      "title": "老闆的神秘訊息",
+      "story": "手機亮起：方便講一下嗎？你的午餐突然失去味道。",
+      "options": [
+        {
+          "text": "專業接招",
+          "path": "worker",
+          "xp": 23,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "獲得職場生存經驗值。"
+        },
+        {
+          "text": "先吃完這口炸雞",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "炸雞是今天最忠實的隊友。"
+        }
+      ]
+    },
+    {
+      "id": "gamer-01",
+      "category": "gamer",
+      "title": "再打一場就睡",
+      "story": "凌晨一點，王剛好掉出了通往下一層的鑰匙。",
+      "options": [
+        {
+          "text": "勇者不能退縮",
+          "path": "gamer",
+          "xp": 23,
+          "coins": 19,
+          "energy": -9,
+          "rage": 6,
+          "reply": "王沒倒，你的生理時鐘先倒了。"
+        },
+        {
+          "text": "存檔關機保護肝臟",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "打倒真正的最終 Boss：誘惑。"
+        }
+      ]
+    },
+    {
+      "id": "gamer-02",
+      "category": "gamer",
+      "title": "金光一閃",
+      "story": "傳說裝備在眼前掉落！但是背包剛好滿了。",
+      "options": [
+        {
+          "text": "清十格背包撿寶",
+          "path": "gamer",
+          "xp": 23,
+          "coins": 19,
+          "energy": -9,
+          "rage": 6,
+          "reply": "得到了寶物，垃圾又不知不覺滿了。"
+        },
+        {
+          "text": "先截圖再休息",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "收藏了一張無法裝備的快樂。"
+        }
+      ]
+    },
+    {
+      "id": "gamer-03",
+      "category": "gamer",
+      "title": "新賽季更新",
+      "story": "遊戲要更新二十 GB，爆肝獸覺得是命運的召喚。",
+      "options": [
+        {
+          "text": "研究流派到天亮",
+          "path": "gamer",
+          "xp": 23,
+          "coins": 19,
+          "energy": -9,
+          "rage": 6,
+          "reply": "你了解版本，版本不了解你的睡眠。"
+        },
+        {
+          "text": "看完公告先躺平",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "讀完公告也像打完一場王。"
+        }
+      ]
+    },
+    {
+      "id": "gamer-04",
+      "category": "gamer",
+      "title": "卡牌三選一",
+      "story": "畫面出現力量、財富和神秘問號。",
+      "options": [
+        {
+          "text": "賭一把再抽一次",
+          "path": "gamer",
+          "xp": 23,
+          "coins": 19,
+          "energy": -9,
+          "rage": 6,
+          "reply": "抽到普通卡，勇氣卻是 SSR。"
+        },
+        {
+          "text": "知足常樂先領獎",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "爆肝獸終於學會不是每個坑都要跳。"
+        }
+      ]
+    },
+    {
+      "id": "gamer-05",
+      "category": "gamer",
+      "title": "困難模式的尊嚴",
+      "story": "攻略說這關很簡單，爆肝獸已經倒地七次。",
+      "options": [
+        {
+          "text": "再死一次就會了",
+          "path": "gamer",
+          "xp": 23,
+          "coins": 19,
+          "energy": -9,
+          "rage": 6,
+          "reply": "第八次躺下時看見了宇宙。"
+        },
+        {
+          "text": "調低難度放過自己",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "快樂比硬撐更加稀有。"
+        }
+      ]
+    },
+    {
+      "id": "gamer-06",
+      "category": "gamer",
+      "title": "遊戲特價陷阱",
+      "story": "收藏清單四十三款遊戲，都在說帶我走。",
+      "options": [
+        {
+          "text": "補完遊戲圖鑑",
+          "path": "gamer",
+          "xp": 23,
+          "coins": 19,
+          "energy": -9,
+          "rage": 6,
+          "reply": "遊戲收藏多一款，時間還是不夠。"
+        },
+        {
+          "text": "把購物車當博物館",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "免費參觀，也能收集一點快樂。"
+        }
+      ]
+    },
+    {
+      "id": "broke-01",
+      "category": "broke",
+      "title": "月底帳單巨獸",
+      "story": "三張帳單排成一列，準備對荷包使用連擊。",
+      "options": [
+        {
+          "text": "拿計算機迎戰",
+          "path": "broke",
+          "xp": 23,
+          "coins": 26,
+          "energy": -7,
+          "rage": 5,
+          "reply": "看清真相後，你開始懷念昨天。"
+        },
+        {
+          "text": "先泡麵穩定心情",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "至少泡麵不會催你交報表。"
+        }
+      ]
+    },
+    {
+      "id": "broke-02",
+      "category": "broke",
+      "title": "買一送一的誘惑",
+      "story": "便利商店買一送一，但你本來一個也不需要。",
+      "options": [
+        {
+          "text": "嚴守荷包防線",
+          "path": "broke",
+          "xp": 23,
+          "coins": 26,
+          "energy": -7,
+          "rage": 5,
+          "reply": "解鎖傳說技能：空手離店。"
+        },
+        {
+          "text": "買一個給今天的自己",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "快樂很好，荷包還在適應中。"
+        }
+      ]
+    },
+    {
+      "id": "broke-03",
+      "category": "broke",
+      "title": "薪水穿牆術",
+      "story": "薪水剛入帳，下一秒全部跑去固定支出家作客。",
+      "options": [
+        {
+          "text": "認真記帳守住錢包",
+          "path": "broke",
+          "xp": 23,
+          "coins": 26,
+          "energy": -7,
+          "rage": 5,
+          "reply": "帳本完整，存款卻有點害羞。"
+        },
+        {
+          "text": "喝水慶祝這個月",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "至少這杯水沒有刷卡手續費。"
+        }
+      ]
+    },
+    {
+      "id": "broke-04",
+      "category": "broke",
+      "title": "神秘外送通知",
+      "story": "手機送來優惠券，爆肝獸的手指開始不聽指揮。",
+      "options": [
+        {
+          "text": "今天自己煮",
+          "path": "broke",
+          "xp": 23,
+          "coins": 26,
+          "energy": -7,
+          "rage": 5,
+          "reply": "料理的賣相有點危險，但獸幣留下來了。"
+        },
+        {
+          "text": "來碗滷肉飯慰勞自己",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "胃表示感謝，錢包提交抗議。"
+        }
+      ]
+    },
+    {
+      "id": "broke-05",
+      "category": "broke",
+      "title": "發票宇宙的希望",
+      "story": "店員問要不要印發票，你開始幻想頭獎人生。",
+      "options": [
+        {
+          "text": "認真對獎",
+          "path": "broke",
+          "xp": 23,
+          "coins": 26,
+          "energy": -7,
+          "rage": 5,
+          "reply": "沒中也無妨，夢想不用付費。"
+        },
+        {
+          "text": "先存起來慢慢來",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "至少沒有忘記拿發票。"
+        }
+      ]
+    },
+    {
+      "id": "broke-06",
+      "category": "broke",
+      "title": "財富密碼洩漏",
+      "story": "朋友說有個快速致富的方法，第一步是追蹤他的頻道。",
+      "options": [
+        {
+          "text": "守住理性與錢包",
+          "path": "broke",
+          "xp": 23,
+          "coins": 26,
+          "energy": -7,
+          "rage": 5,
+          "reply": "恭喜，避開了一個可疑副本。"
+        },
+        {
+          "text": "反手推薦泡麵口味",
+          "path": "sloth",
+          "xp": 16,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "真正的投資是找到好吃宵夜。"
+        }
+      ]
+    },
+    {
+      "id": "sloth-01",
+      "category": "sloth",
+      "title": "床墊召喚術",
+      "story": "週末早晨，床墊對你施放了引力魔法。",
+      "options": [
+        {
+          "text": "批准自己睡到自然醒",
+          "path": "sloth",
+          "xp": 19,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "獲得隱藏祝福：好好休息。"
+        },
+        {
+          "text": "做完一件待辦",
+          "path": "worker",
+          "xp": 20,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "今天至少成功解開一格任務。"
+        }
+      ]
+    },
+    {
+      "id": "sloth-02",
+      "category": "sloth",
+      "title": "冰箱裡的哲學",
+      "story": "冰箱只剩兩顆蛋，爆肝獸開始思考存在意義。",
+      "options": [
+        {
+          "text": "煎蛋慶祝平凡幸福",
+          "path": "sloth",
+          "xp": 19,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "小小的好事，也是好事。"
+        },
+        {
+          "text": "規劃下週採購",
+          "path": "worker",
+          "xp": 20,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "解鎖超市軍師的眼神。"
+        }
+      ]
+    },
+    {
+      "id": "sloth-03",
+      "category": "sloth",
+      "title": "咖啡因和平條約",
+      "story": "爆肝獸對世界宣布：今天先不要吵。",
+      "options": [
+        {
+          "text": "慢慢喝杯咖啡",
+          "path": "sloth",
+          "xp": 19,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "世界沒有變簡單，但你可以不用那麼緊繃。"
+        },
+        {
+          "text": "喝完繼續衝任務",
+          "path": "worker",
+          "xp": 20,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "咖啡還沒涼，待辦又長高了。"
+        }
+      ]
+    },
+    {
+      "id": "sloth-04",
+      "category": "sloth",
+      "title": "假日突發通知",
+      "story": "原本是休息日，手機卻響起工作訊息聲。",
+      "options": [
+        {
+          "text": "好好完成休息",
+          "path": "sloth",
+          "xp": 19,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "今天的休息由爆肝獸守護。"
+        },
+        {
+          "text": "趕快回訊息",
+          "path": "worker",
+          "xp": 20,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "專業值很高，週末時間有點心酸。"
+        }
+      ]
+    },
+    {
+      "id": "sloth-05",
+      "category": "sloth",
+      "title": "放空也是技能",
+      "story": "爆肝獸盯著牆壁三分鐘，突然覺得一切還可以。",
+      "options": [
+        {
+          "text": "讓腦袋先散熱",
+          "path": "sloth",
+          "xp": 19,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "安靜是今天難得的掉落物。"
+        },
+        {
+          "text": "畫張圖抓住靈感",
+          "path": "worker",
+          "xp": 20,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "靈感到了，記得也讓眼睛休息。"
+        }
+      ]
+    },
+    {
+      "id": "sloth-06",
+      "category": "sloth",
+      "title": "明天再說魔法",
+      "story": "面對十件煩惱，爆肝獸提出今晚先睡。",
+      "options": [
+        {
+          "text": "批准自己放鬆",
+          "path": "sloth",
+          "xp": 19,
+          "coins": 17,
+          "energy": 12,
+          "rage": -9,
+          "reply": "沒有壞結局，睡覺也是一種超能力。"
+        },
+        {
+          "text": "先做最急的一件",
+          "path": "worker",
+          "xp": 20,
+          "coins": 21,
+          "energy": -10,
+          "rage": 10,
+          "reply": "完成一小步，也很有勇氣。"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-01",
+      "rarity": "N",
+      "name": "白開水治癒術",
+      "description": "世界再糟也先補充水分。",
+      "xp": 10,
+      "coins": 12,
+      "energy": 8,
+      "rage": -5
+    },
+    {
+      "id": "card-02",
+      "rarity": "N",
+      "name": "過期的禮拜五",
+      "description": "一度以為今天放假。",
+      "xp": 10,
+      "coins": 12,
+      "energy": 8,
+      "rage": -5
+    },
+    {
+      "id": "card-03",
+      "rarity": "N",
+      "name": "第八杯咖啡",
+      "description": "雙手比理智更有節奏。",
+      "xp": 10,
+      "coins": 12,
+      "energy": 8,
+      "rage": -5
+    },
+    {
+      "id": "card-04",
+      "rarity": "N",
+      "name": "失蹤的橡皮擦",
+      "description": "找回一點耐心。",
+      "xp": 10,
+      "coins": 12,
+      "energy": 8,
+      "rage": -5
+    },
+    {
+      "id": "card-05",
+      "rarity": "N",
+      "name": "泡麵之光",
+      "description": "宵夜是生活的溫柔。",
+      "xp": 10,
+      "coins": 12,
+      "energy": 8,
+      "rage": -5
+    },
+    {
+      "id": "card-06",
+      "rarity": "N",
+      "name": "未讀訊息結界",
+      "description": "有些訊息可以稍晚再回。",
+      "xp": 10,
+      "coins": 12,
+      "energy": 8,
+      "rage": -5
+    },
+    {
+      "id": "card-07",
+      "rarity": "N",
+      "name": "塑膠袋收納術",
+      "description": "這個袋子總有一天有用。",
+      "xp": 10,
+      "coins": 12,
+      "energy": 8,
+      "rage": -5
+    },
+    {
+      "id": "card-08",
+      "rarity": "N",
+      "name": "忘記存檔",
+      "description": "沒關係，人生還能再試。",
+      "xp": 10,
+      "coins": 12,
+      "energy": 8,
+      "rage": -5
+    },
+    {
+      "id": "card-09",
+      "rarity": "N",
+      "name": "便利商店暖光",
+      "description": "半夜依然有一盞燈亮著。",
+      "xp": 10,
+      "coins": 12,
+      "energy": 8,
+      "rage": -5
+    },
+    {
+      "id": "card-10",
+      "rarity": "N",
+      "name": "午休十分鐘",
+      "description": "一小段休息也值得珍惜。",
+      "xp": 10,
+      "coins": 12,
+      "energy": 8,
+      "rage": -5
+    },
+    {
+      "id": "card-11",
+      "rarity": "R",
+      "name": "準時下班通行證",
+      "description": "今天難得能呼吸自由空氣。",
+      "xp": 22,
+      "coins": 36,
+      "energy": 13,
+      "rage": -10
+    },
+    {
+      "id": "card-12",
+      "rarity": "R",
+      "name": "老闆請喝飲料",
+      "description": "終於不是你請客。",
+      "xp": 22,
+      "coins": 36,
+      "energy": 13,
+      "rage": -10
+    },
+    {
+      "id": "card-13",
+      "rarity": "R",
+      "name": "連續三局出貨",
+      "description": "另一個宇宙送來了好運。",
+      "xp": 22,
+      "coins": 36,
+      "energy": 13,
+      "rage": -10
+    },
+    {
+      "id": "card-14",
+      "rarity": "R",
+      "name": "找回的零用錢",
+      "description": "褲子口袋發生奇蹟。",
+      "xp": 22,
+      "coins": 36,
+      "energy": 13,
+      "rage": -10
+    },
+    {
+      "id": "card-15",
+      "rarity": "R",
+      "name": "沒有改稿的下午",
+      "description": "世界還有值得相信的角落。",
+      "xp": 22,
+      "coins": 36,
+      "energy": 13,
+      "rage": -10
+    },
+    {
+      "id": "card-16",
+      "rarity": "R",
+      "name": "星期一護符",
+      "description": "至少要守住午餐時間。",
+      "xp": 22,
+      "coins": 36,
+      "energy": 13,
+      "rage": -10
+    },
+    {
+      "id": "card-17",
+      "rarity": "SSR",
+      "name": "傳說級帶薪躺平",
+      "description": "時間為你停止兩分鐘。",
+      "xp": 54,
+      "coins": 94,
+      "energy": 24,
+      "rage": -22
+    },
+    {
+      "id": "card-18",
+      "rarity": "SSR",
+      "name": "財神附體卻忘帶錢",
+      "description": "至少給了你獸幣。",
+      "xp": 54,
+      "coins": 94,
+      "energy": 24,
+      "rage": -22
+    },
+    {
+      "id": "card-19",
+      "rarity": "SSR",
+      "name": "地獄主管發休假通知",
+      "description": "這張卡只存在奇幻史詩。",
+      "xp": 54,
+      "coins": 94,
+      "energy": 24,
+      "rage": -22
+    },
+    {
+      "id": "card-20",
+      "rarity": "SSR",
+      "name": "王的最後一滴血",
+      "description": "今天的你值得勝利姿勢。",
+      "xp": 54,
+      "coins": 94,
+      "energy": 24,
+      "rage": -22
+    }
+  ]
+}
