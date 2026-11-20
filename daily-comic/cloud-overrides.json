@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "description": "每日發病漫畫日曆的雲端指定日期覆蓋設定；原始 365 則幹話、70 張漫畫及節慶資料仍保存在 iPhone 的 DailyComicFINAL。此檔沒有指定內容時，完全採用離線原版。",
+  "date_overrides": {},
+  "rules": {
+    "festive_dates": "原本 FINAL 的台灣節慶資料優先，不受雲端覆蓋",
+    "matching": "每個線上覆蓋都必須指定 scene 1~60，避免圖文亂配",
+    "widget": "上方大型 Widget 專用；爆肝獸3.0的中型 Widget 獨立運作"
+  }
+}
