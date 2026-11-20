@@ -1,7 +1,18 @@
 {
   "version": 1,
   "description": "每日發病漫畫日曆的雲端指定日期覆蓋設定；原始 365 則幹話、70 張漫畫及節慶資料仍保存在 iPhone 的 DailyComicFINAL。此檔沒有指定內容時，完全採用離線原版。",
-  "date_overrides": {},
+  "date_overrides": {
+    "2026-11-20": {
+      "title": "刷卡的超能力",
+      "punch": "付款只要一秒，後悔可以分十二期。",
+      "scene": 45
+    },
+    "2026-11-21": {
+      "title": "工地平行宇宙",
+      "punch": "昨天量的公分，今天突然長出自己的想法。",
+      "scene": 2
+    }
+  },
   "rules": {
     "festive_dates": "原本 FINAL 的台灣節慶資料優先，不受雲端覆蓋",
     "matching": "每個線上覆蓋都必須指定 scene 1~60，避免圖文亂配",
