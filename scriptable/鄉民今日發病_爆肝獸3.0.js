@@ -28,7 +28,7 @@ async function readJson(url){
   const req=new Request(url);req.timeoutInterval=7;return await req.loadJSON();
 }
 let entry=null, source="離線備援";
-if(good(stored.today)){entry=stored.today;source="今日快取"}
+if(good(stored.today)&&stored.fromCloud===true){entry=stored.today;source="今日快取"}
 else {
   try{
     const fresh=await readJson(BASE+"today.json?v="+key);
@@ -64,7 +64,7 @@ if(!entry){
   const a=fallback[((n%fallback.length)+fallback.length)%fallback.length];
   entry={date:key,title:a[0],punch:a[1],category:a[2]};source="離線原創幹話";
 }
-try{stored.today=entry;fm.writeString(cache,JSON.stringify(stored))}catch(e){}
+try{stored.today=entry;stored.fromCloud=(source==="GitHub 雲端"||source==="今日快取");fm.writeString(cache,JSON.stringify(stored))}catch(e){}
 async function loadBeast(name){
   for(const manager of [FileManager.iCloud(),FileManager.local()]){
     const p=manager.joinPath(manager.joinPath(manager.documentsDirectory(),MASCOT_FOLDER),name);
@@ -94,7 +94,7 @@ else{const missing=text(right,"爆肝獸\n圖片待放入",9,C.muted,false);miss
 w.addSpacer(2);
 const footer=w.addStack();footer.layoutHorizontally();footer.centerAlignContent();
 text(footer,(entry.label?entry.label+" · ":"")+source,9,C.muted,false);footer.addSpacer();text(footer,"爆肝獸日誌 ›",9,C.red,true);
-const tomorrow=new Date(today.getFullYear(),today.getMonth(),today.getDate()+1,0,20);
+const tomorrow=new Date(today.getFullYear(),today.getMonth(),today.getDate()+1,1,10);
 const retry=new Date(today.getTime()+3*3600000);
 w.refreshAfterDate=retry<tomorrow?retry:tomorrow;
 if(config.runsInWidget){Script.setWidget(w)}else{await w.presentMedium()}
