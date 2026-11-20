@@ -26,3 +26,10 @@
 - 沒有承諾準時 00:00 換日。更新後的 Widget 何時顯示由 iOS 決定。
 - 如果未來要加入 AI 自動寫作，應以 GitHub Actions Secrets 安全儲存你自己決定使用的 API 金鑰；會另外產生費用。
 - 不抓取或重發他人的巴哈貼文；目前所有句子為原創。
+
+## 每日發病漫畫日曆 Cloud（上方大型 Widget）
+
+- [安裝說明](daily-comic/README.md)
+- [Scriptable 腳本](scriptable/每日發病_FINAL_Cloud.js)
+- [雲端指定日期漫畫幹話](daily-comic/cloud-overrides.json)
+- 漫畫、365 則原文案與節慶資料仍使用手機上的 `DailyComicFINAL`；目前雲端只管理指定日期的補充內容，與下方爆肝獸獨立。
