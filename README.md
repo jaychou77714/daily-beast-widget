@@ -33,3 +33,12 @@
 - [Scriptable 腳本](scriptable/每日發病_FINAL_Cloud.js)
 - [雲端指定日期漫畫幹話](daily-comic/cloud-overrides.json)
 - 漫畫、365 則原文案與節慶資料仍使用手機上的 `DailyComicFINAL`；目前雲端只管理指定日期的補充內容，與下方爆肝獸獨立。
+
+## 爆肝獸 4.0 · 養成 RPG（下方中型 Widget）
+
+**第一版已上線：** 每日事件二選一、人生卡抽卡、四條進化、角色卡與成就，存檔只留在 iPhone。
+
+- [安裝教學與玩法](game/README.md)
+- [iPhone Scriptable 4.0 程式碼](scriptable/鄉民今日發病_爆肝獸4.0.js)
+- [24 個原創事件與 20 張人生卡](game/game-data.json)
+- **3.0 舊版保留，不要刪除。上方《每日發病 Cloud》不需修改。**
