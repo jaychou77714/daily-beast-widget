@@ -16,6 +16,6 @@
   "rules": {
     "festive_dates": "原本 FINAL 的台灣節慶資料優先，不受雲端覆蓋",
     "matching": "每個線上覆蓋都必須指定 scene 1~60，避免圖文亂配",
-    "widget": "上方大型 Widget 專用；爆肝獸3.0的中型 Widget 獨立運作"
+    "widget": "僅供每日發病大型漫畫日曆使用；新漫畫由 comic-feed.json 管理，圖片與字幕同步更新。"
   }
 }
