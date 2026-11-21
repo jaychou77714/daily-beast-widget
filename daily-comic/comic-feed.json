@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "description": "每日發病：全新漫畫圖檔發布清單。每則需自備圖片與標題、下方短句，漫畫無文字烘焙。舊 70 張維持在 iPhone。",
+  "image_base": "https://raw.githubusercontent.com/jaychou77714/daily-beast-widget/main/daily-comic/comics/",
+  "comics": {}
+}
