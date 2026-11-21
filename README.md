@@ -1,31 +1,24 @@
-# 每日發病 × 小栗精神助理
+# 每日發病｜GitHub 雲端漫畫日曆
 
-這個公開儲存庫目前保留兩個 iPhone Scriptable 專案，原本的「爆肝獸／場外」小工具已停止維護與每日自動更新。
+這是 iPhone Scriptable 《每日發病》漫畫小工具的公開內容庫。目前主要維護 **漫畫日曆與新漫畫發布**。
 
-## 目前使用
+## 目前主要版本：每日發病 Cloud 新漫畫 2.0
 
-### 1. 每日發病 FINAL Cloud（上方漫畫日曆）
-- [使用說明](daily-comic/README.md)
-- [Scriptable 程式](scriptable/每日發病_FINAL_Cloud.js)
-- [雲端指定日期內容](daily-comic/cloud-overrides.json)
-- 漫畫和原有 365 則文案仍在手機的 `DailyComicFINAL` 資料夾。這部分不受爆肝獸停用影響。
+- [iPhone 安裝與漫畫發布說明](daily-comic/README.md)
+- [新版 Scriptable 程式](scriptable/每日發病_Cloud_新漫畫2.0.js)
+- [全新漫畫發布清單](daily-comic/comic-feed.json)
+- [既有日期覆蓋文案](daily-comic/cloud-overrides.json)
 
-### 2. 小栗 1.0（中型精神助理）
-- [安裝說明](companion/README.md)
-- [Scriptable 程式](scriptable/小栗_桌面精神助理1.0.js)
-- [公開原創時段問候](companion/public-lines.json)
-- 文字聊天、近期話題、本機相簿頭像、可自行開關的問候通知。屬免費規則式回覆，不是生成式 AI。
-- 照片及聊天紀錄保存在 iPhone 本機，不會上傳 GitHub。
+**使用方式：** iPhone 只需安裝一次新漫畫 2.0。往後新增漫畫圖檔至 GitHub 並更新發布清單，即可在指定日期出現新作品。不需要每次重新下載圖片到 iPhone。
 
-## 已封存：爆肝獸 3.0／4.0
+**安全備援：** 先完整下載新圖，成功才一起更新標題和短句；網路或新稿缺席時，繼續顯示手機原本的漫畫。既有漫畫 70 張、年度 365 則文案與假日資料留在 `DailyComicFINAL`，不會刪除。節慶特殊篇維持優先。
 
-使用者已決定不再使用場外爆肝獸。
+**尚未提供：** 每天自動生成一張全新 AI 漫畫。若將來要每天自動畫新圖，需要另外設定有費用的圖像生成服務；目前沒有替你啟用付費 API。
 
-- 舊腳本與遊戲資料仍留在儲存庫作為歷史備份，不需要下載、安裝或維護。
-- **GitHub Actions 的自動排程已停用**；`.github/workflows/daily.yml` 僅保留手動觸發，平常不會自行發布爆肝獸內容。
-- 不影響《每日發病 FINAL Cloud》或小栗。
-- 如果手機桌面還有爆肝獸的中型 Widget，可長按 → **編輯小工具** → 將 Script 改為「小栗精神助理」，或直接移除爆肝獸 Widget。
-- 如要刪除本機的爆肝獸腳本／資料，請先確認不需要保留既有養成存檔。
+## 舊版備份
+- [每日發病 FINAL Cloud](scriptable/每日發病_FINAL_Cloud.js)：曾在 iPhone 上完成實機驗收，保留作為還原版本。
+- 已停用的爆肝獸 3.0／4.0 歷史程式與資料仍留在 repo 供回溯，**自動更新已停止**；不需要繼續使用或維護。
+- 已從目前 GitHub 分支刪除小栗的主程式、公開問候資料與說明文件。該角色的聊天紀錄及照片原本只在 iPhone 本機；**GitHub 檔案刪除不會自動刪除手機本機資料**。舊 Git commit 歷史可能仍保留先前的公開程式。
 
-## 隱私
-此儲存庫是 **Public**，請勿將個人聊天紀錄、私人照片、公司文件、API 金鑰上傳至此。
+## 隱私與版權
+此 repo 為 Public。請勿上傳個人資料、私人聊天、公司文件、API Key，或無權公開的漫畫圖片。
