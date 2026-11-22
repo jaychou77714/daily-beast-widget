@@ -1,0 +1,757 @@
+{
+  "version": 1,
+  "description": "原創生活吐槽題庫。無每日日期限制，不依賴舊桌面小工具。",
+  "count": 125,
+  "jokes": [
+    {
+      "id": "j001",
+      "category": "deadline",
+      "title": "客戶說小改一下",
+      "punch": "我聽見電腦風扇開始替我哭。"
+    },
+    {
+      "id": "j002",
+      "category": "deadline",
+      "title": "第十八版的曙光",
+      "punch": "就是第一版被選回來的那一天。"
+    },
+    {
+      "id": "j003",
+      "category": "deadline",
+      "title": "我不是沒進度",
+      "punch": "是進度看見我就自動後退。"
+    },
+    {
+      "id": "j004",
+      "category": "deadline",
+      "title": "今天的工作內容",
+      "punch": "把昨天的錯誤修成明天的新問題。"
+    },
+    {
+      "id": "j005",
+      "category": "deadline",
+      "title": "會議通知又來了",
+      "punch": "這次連我的靈魂都想請假。"
+    },
+    {
+      "id": "j006",
+      "category": "deadline",
+      "title": "工地說差一點點",
+      "punch": "那一點點的單位是整個禮拜。"
+    },
+    {
+      "id": "j007",
+      "category": "deadline",
+      "title": "提案簡報已完成",
+      "punch": "只是客戶突然有了新的人生觀。"
+    },
+    {
+      "id": "j008",
+      "category": "deadline",
+      "title": "設計圖的生存法則",
+      "punch": "畫得越漂亮，改得越徹底。"
+    },
+    {
+      "id": "j009",
+      "category": "deadline",
+      "title": "今天準時下班",
+      "punch": "這句話我先寫在奇幻小說裡。"
+    },
+    {
+      "id": "j010",
+      "category": "deadline",
+      "title": "現場尺寸很神奇",
+      "punch": "昨天量的跟今天量的不是同一個宇宙。"
+    },
+    {
+      "id": "j011",
+      "category": "deadline",
+      "title": "報價單一打開",
+      "punch": "數字比我想像中更有生命力。"
+    },
+    {
+      "id": "j012",
+      "category": "deadline",
+      "title": "客戶的最後一改",
+      "punch": "從上週一路連載到今天。"
+    },
+    {
+      "id": "j013",
+      "category": "deadline",
+      "title": "這個需求很簡單",
+      "punch": "簡單到需要八個人開三場會。"
+    },
+    {
+      "id": "j014",
+      "category": "deadline",
+      "title": "我與進度的關係",
+      "punch": "遠遠看很近，靠近看很遠。"
+    },
+    {
+      "id": "j015",
+      "category": "deadline",
+      "title": "今日專業術語",
+      "punch": "可以調整，但要再評估。"
+    },
+    {
+      "id": "j016",
+      "category": "deadline",
+      "title": "設計師的浪漫",
+      "punch": "在凌晨兩點跟一條線談心。"
+    },
+    {
+      "id": "j017",
+      "category": "deadline",
+      "title": "電腦說它很累",
+      "punch": "我說先別急著跟我比慘。"
+    },
+    {
+      "id": "j018",
+      "category": "deadline",
+      "title": "又收到新修改了",
+      "punch": "我們的故事真是永遠沒有結局。"
+    },
+    {
+      "id": "j019",
+      "category": "deadline",
+      "title": "我的行事曆像恐怖片",
+      "punch": "每一格都有驚喜音效。"
+    },
+    {
+      "id": "j020",
+      "category": "deadline",
+      "title": "今天的我非常冷靜",
+      "punch": "只把滑鼠握成了化石。"
+    },
+    {
+      "id": "j021",
+      "category": "deadline",
+      "title": "有人問現在忙嗎",
+      "punch": "我只能回答正在跟命運趕工。"
+    },
+    {
+      "id": "j022",
+      "category": "deadline",
+      "title": "老闆說要有彈性",
+      "punch": "我先確認是不是指我的腰。"
+    },
+    {
+      "id": "j023",
+      "category": "deadline",
+      "title": "已讀不回的客戶",
+      "punch": "是我唯一不用改圖的時光。"
+    },
+    {
+      "id": "j024",
+      "category": "deadline",
+      "title": "設計理念很完整",
+      "punch": "只有我的睡眠被刪到剩封面。"
+    },
+    {
+      "id": "j025",
+      "category": "deadline",
+      "title": "今天決定不加班",
+      "punch": "先從嘴巴宣布獨立開始。"
+    },
+    {
+      "id": "j026",
+      "category": "broke",
+      "title": "財富自由的第一步",
+      "punch": "先承認錢包目前比較自由。"
+    },
+    {
+      "id": "j027",
+      "category": "broke",
+      "title": "我的存款很低調",
+      "punch": "低調到銀行都認不出我。"
+    },
+    {
+      "id": "j028",
+      "category": "broke",
+      "title": "月底不是終點",
+      "punch": "它是帳單的季後賽。"
+    },
+    {
+      "id": "j029",
+      "category": "broke",
+      "title": "今年最大的投資",
+      "punch": "是買下自己後悔的機會。"
+    },
+    {
+      "id": "j030",
+      "category": "broke",
+      "title": "薪水只是過客",
+      "punch": "進來打聲招呼就趕下一班車。"
+    },
+    {
+      "id": "j031",
+      "category": "broke",
+      "title": "信用卡很關心我",
+      "punch": "每個月都寄一封長篇小說。"
+    },
+    {
+      "id": "j032",
+      "category": "broke",
+      "title": "我的錢包走極簡風",
+      "punch": "裡面連空氣都收納好了。"
+    },
+    {
+      "id": "j033",
+      "category": "broke",
+      "title": "今天決定存錢",
+      "punch": "結果外送先發來慰問。"
+    },
+    {
+      "id": "j034",
+      "category": "broke",
+      "title": "財務規劃很簡單",
+      "punch": "規劃完以後就不要再看數字。"
+    },
+    {
+      "id": "j035",
+      "category": "broke",
+      "title": "領薪日的我很富有",
+      "punch": "富有到足夠幻想三分鐘。"
+    },
+    {
+      "id": "j036",
+      "category": "broke",
+      "title": "購物車像我的夢想",
+      "punch": "都很滿，結帳時都會醒。"
+    },
+    {
+      "id": "j037",
+      "category": "broke",
+      "title": "我已經財富自由",
+      "punch": "自由地選擇吃哪一款泡麵。"
+    },
+    {
+      "id": "j038",
+      "category": "broke",
+      "title": "銀行帳戶有哲學",
+      "punch": "一切皆空，尤其是餘額。"
+    },
+    {
+      "id": "j039",
+      "category": "broke",
+      "title": "理財顧問是我自己",
+      "punch": "所以我現在有點想換顧問。"
+    },
+    {
+      "id": "j040",
+      "category": "broke",
+      "title": "這個月的預算",
+      "punch": "已經提前去下個月出差。"
+    },
+    {
+      "id": "j041",
+      "category": "broke",
+      "title": "帳單到得很準時",
+      "punch": "比任何朋友都懂得聯絡感情。"
+    },
+    {
+      "id": "j042",
+      "category": "broke",
+      "title": "我跟金錢的緣分",
+      "punch": "屬於一見面就要道別的類型。"
+    },
+    {
+      "id": "j043",
+      "category": "broke",
+      "title": "今天沒亂花錢",
+      "punch": "只買了一些未來的後悔。"
+    },
+    {
+      "id": "j044",
+      "category": "broke",
+      "title": "節省不是摳門",
+      "punch": "是讓錢多陪我幾分鐘。"
+    },
+    {
+      "id": "j045",
+      "category": "broke",
+      "title": "錢沒有不見",
+      "punch": "只是換成了一堆到貨通知。"
+    },
+    {
+      "id": "j046",
+      "category": "broke",
+      "title": "最近很努力記帳",
+      "punch": "努力確認每一筆都是真的。"
+    },
+    {
+      "id": "j047",
+      "category": "broke",
+      "title": "零用錢像忍者",
+      "punch": "來無影去無蹤。"
+    },
+    {
+      "id": "j048",
+      "category": "broke",
+      "title": "月底想犒賞自己",
+      "punch": "打開冰箱，看見一顆蛋。"
+    },
+    {
+      "id": "j049",
+      "category": "broke",
+      "title": "我不買就是賺到",
+      "punch": "這個數學我願意相信。"
+    },
+    {
+      "id": "j050",
+      "category": "broke",
+      "title": "有錢人的煩惱",
+      "punch": "暫時還沒排到我的號碼。"
+    },
+    {
+      "id": "j051",
+      "category": "gamer",
+      "title": "再打一場就睡",
+      "punch": "這是我最擅長的都市傳說。"
+    },
+    {
+      "id": "j052",
+      "category": "gamer",
+      "title": "今晚一定出貨",
+      "punch": "結果掉的是我的眼淚。"
+    },
+    {
+      "id": "j053",
+      "category": "gamer",
+      "title": "我不是沉迷遊戲",
+      "punch": "我在研究另一種經濟體系。"
+    },
+    {
+      "id": "j054",
+      "category": "gamer",
+      "title": "新賽季開始了",
+      "punch": "我的睡眠正式進入維護模式。"
+    },
+    {
+      "id": "j055",
+      "category": "gamer",
+      "title": "打王前信心十足",
+      "punch": "打完後我開始研究復活次數。"
+    },
+    {
+      "id": "j056",
+      "category": "gamer",
+      "title": "我的角色很強",
+      "punch": "只是操作的人常常失蹤。"
+    },
+    {
+      "id": "j057",
+      "category": "gamer",
+      "title": "今日抽卡運勢",
+      "punch": "保底系統比親戚還關心我。"
+    },
+    {
+      "id": "j058",
+      "category": "gamer",
+      "title": "背包已經滿了",
+      "punch": "但我還想再撿一件快樂。"
+    },
+    {
+      "id": "j059",
+      "category": "gamer",
+      "title": "遊戲更新二十 GB",
+      "punch": "我的人生倒是一直沒有修復。"
+    },
+    {
+      "id": "j060",
+      "category": "gamer",
+      "title": "我不是打不贏",
+      "punch": "是在替 Boss 做壓力測試。"
+    },
+    {
+      "id": "j061",
+      "category": "gamer",
+      "title": "說好只做每日任務",
+      "punch": "怎麼一路做到日出任務。"
+    },
+    {
+      "id": "j062",
+      "category": "gamer",
+      "title": "這次一定不課金",
+      "punch": "除了那個真的很香的造型。"
+    },
+    {
+      "id": "j063",
+      "category": "gamer",
+      "title": "我的裝備很豪華",
+      "punch": "可是現實的襪子破了一洞。"
+    },
+    {
+      "id": "j064",
+      "category": "gamer",
+      "title": "生活沒有重置鍵",
+      "punch": "所以我先去遊戲裡重開。"
+    },
+    {
+      "id": "j065",
+      "category": "gamer",
+      "title": "昨晚只玩半小時",
+      "punch": "不小心跨了兩個時區。"
+    },
+    {
+      "id": "j066",
+      "category": "gamer",
+      "title": "我在遊戲裡很富有",
+      "punch": "現實裡負責當 NPC。"
+    },
+    {
+      "id": "j067",
+      "category": "gamer",
+      "title": "每次看到更新公告",
+      "punch": "都像收到另一份工作通知。"
+    },
+    {
+      "id": "j068",
+      "category": "gamer",
+      "title": "這不是逃避現實",
+      "punch": "這是暫時切換伺服器。"
+    },
+    {
+      "id": "j069",
+      "category": "gamer",
+      "title": "遊戲角色都滿級了",
+      "punch": "我本人還在新手教學。"
+    },
+    {
+      "id": "j070",
+      "category": "gamer",
+      "title": "最後一個副本",
+      "punch": "永遠是最會說謊的副本。"
+    },
+    {
+      "id": "j071",
+      "category": "gamer",
+      "title": "今天的幸運值",
+      "punch": "大概忘記跟著角色登入。"
+    },
+    {
+      "id": "j072",
+      "category": "gamer",
+      "title": "攻略寫得很簡單",
+      "punch": "簡單到我死了七次才看懂。"
+    },
+    {
+      "id": "j073",
+      "category": "gamer",
+      "title": "我的收藏很完整",
+      "punch": "只缺時間把它們全部玩完。"
+    },
+    {
+      "id": "j074",
+      "category": "gamer",
+      "title": "打怪掉一堆垃圾",
+      "punch": "很像我的電子郵件信箱。"
+    },
+    {
+      "id": "j075",
+      "category": "gamer",
+      "title": "我不怕地獄難度",
+      "punch": "我怕手機通知說明天上班。"
+    },
+    {
+      "id": "j076",
+      "category": "coffee",
+      "title": "今天不是沒力氣",
+      "punch": "是靈魂還沒跟身體同步。"
+    },
+    {
+      "id": "j077",
+      "category": "coffee",
+      "title": "我有好好休息",
+      "punch": "只是用躺著的方式思考人生。"
+    },
+    {
+      "id": "j078",
+      "category": "coffee",
+      "title": "這杯咖啡很重要",
+      "punch": "它是我跟世界的和平條約。"
+    },
+    {
+      "id": "j079",
+      "category": "coffee",
+      "title": "起床是一門藝術",
+      "punch": "我目前仍在欣賞床墊。"
+    },
+    {
+      "id": "j080",
+      "category": "coffee",
+      "title": "今日心情不錯",
+      "punch": "至少手機還沒叫我加班。"
+    },
+    {
+      "id": "j081",
+      "category": "coffee",
+      "title": "有人說放輕鬆",
+      "punch": "我連放鬆都差點做成待辦。"
+    },
+    {
+      "id": "j082",
+      "category": "coffee",
+      "title": "我的夢想很普通",
+      "punch": "就是醒來不用先找眼鏡。"
+    },
+    {
+      "id": "j083",
+      "category": "coffee",
+      "title": "生活需要儀式感",
+      "punch": "例如把鬧鐘按掉三次。"
+    },
+    {
+      "id": "j084",
+      "category": "coffee",
+      "title": "今天有進步",
+      "punch": "我沒有跟影印機吵架。"
+    },
+    {
+      "id": "j085",
+      "category": "coffee",
+      "title": "不是我太懶",
+      "punch": "是沙發的引力比較專業。"
+    },
+    {
+      "id": "j086",
+      "category": "coffee",
+      "title": "全世界都在加速",
+      "punch": "只有我在等待緩衝完成。"
+    },
+    {
+      "id": "j087",
+      "category": "coffee",
+      "title": "計畫明天再開始",
+      "punch": "我對明天充滿高度期待。"
+    },
+    {
+      "id": "j088",
+      "category": "coffee",
+      "title": "我沒有在放空",
+      "punch": "我在替腦袋進行散熱。"
+    },
+    {
+      "id": "j089",
+      "category": "coffee",
+      "title": "今日的勝利",
+      "punch": "是午餐沒有選擇困難。"
+    },
+    {
+      "id": "j090",
+      "category": "coffee",
+      "title": "我的注意力很忠誠",
+      "punch": "忠誠地留在昨天的假日。"
+    },
+    {
+      "id": "j091",
+      "category": "coffee",
+      "title": "這不是黑眼圈",
+      "punch": "是成熟大人的年度紀念章。"
+    },
+    {
+      "id": "j092",
+      "category": "coffee",
+      "title": "明明沒有跑步",
+      "punch": "卻總覺得人生在追我。"
+    },
+    {
+      "id": "j093",
+      "category": "coffee",
+      "title": "睡前決定早睡",
+      "punch": "然後跟手機談了三小時。"
+    },
+    {
+      "id": "j094",
+      "category": "coffee",
+      "title": "今天的能量條",
+      "punch": "打開後發現是裝飾用的。"
+    },
+    {
+      "id": "j095",
+      "category": "coffee",
+      "title": "再努力一下就好",
+      "punch": "這句話已經陪我很多年。"
+    },
+    {
+      "id": "j096",
+      "category": "coffee",
+      "title": "遇到問題先喝水",
+      "punch": "再決定要不要逃到廁所。"
+    },
+    {
+      "id": "j097",
+      "category": "coffee",
+      "title": "星期一沒有錯",
+      "punch": "錯的是它每週都會出現。"
+    },
+    {
+      "id": "j098",
+      "category": "coffee",
+      "title": "星期五我精神很好",
+      "punch": "因為靈魂已經提前下班。"
+    },
+    {
+      "id": "j099",
+      "category": "coffee",
+      "title": "早上的自己很堅強",
+      "punch": "堅強地拒絕第一個鬧鐘。"
+    },
+    {
+      "id": "j100",
+      "category": "coffee",
+      "title": "這不是偷懶",
+      "punch": "是替明天保留一些天賦。"
+    },
+    {
+      "id": "j101",
+      "category": "family",
+      "title": "家庭群組又響了",
+      "punch": "我先祈禱不是新的採購清單。"
+    },
+    {
+      "id": "j102",
+      "category": "family",
+      "title": "週末親子行程",
+      "punch": "孩子充滿電，我只剩一格。"
+    },
+    {
+      "id": "j103",
+      "category": "family",
+      "title": "晚餐要吃什麼",
+      "punch": "這題難度比專案評圖還高。"
+    },
+    {
+      "id": "j104",
+      "category": "family",
+      "title": "我說十分鐘出門",
+      "punch": "大家對十分鐘的定義都不同。"
+    },
+    {
+      "id": "j105",
+      "category": "family",
+      "title": "家裡最忙的人",
+      "punch": "永遠是找不到遙控器的那位。"
+    },
+    {
+      "id": "j106",
+      "category": "family",
+      "title": "想偷個空休息",
+      "punch": "結果被指定擔任陪玩 Boss。"
+    },
+    {
+      "id": "j107",
+      "category": "family",
+      "title": "我的休假很充實",
+      "punch": "充實到比工作日還想午睡。"
+    },
+    {
+      "id": "j108",
+      "category": "family",
+      "title": "小孩問為什麼",
+      "punch": "我開始懷疑人生所有設定。"
+    },
+    {
+      "id": "j109",
+      "category": "family",
+      "title": "明天一定整理房間",
+      "punch": "這句話是我家的祖傳語錄。"
+    },
+    {
+      "id": "j110",
+      "category": "family",
+      "title": "想吃個安靜的飯",
+      "punch": "結果開啟了家庭辯論賽。"
+    },
+    {
+      "id": "j111",
+      "category": "family",
+      "title": "假日的早晨",
+      "punch": "只有孩子記得要準時起床。"
+    },
+    {
+      "id": "j112",
+      "category": "family",
+      "title": "家人說沒事啦",
+      "punch": "通常表示事情才正要開始。"
+    },
+    {
+      "id": "j113",
+      "category": "family",
+      "title": "陪伴是很珍貴的",
+      "punch": "尤其是大家都肯一起睡午覺。"
+    },
+    {
+      "id": "j114",
+      "category": "family",
+      "title": "有人記得我的生日",
+      "punch": "原來是信用卡帳單提醒。"
+    },
+    {
+      "id": "j115",
+      "category": "family",
+      "title": "家庭生活很溫馨",
+      "punch": "只是我的咖啡永遠喝到冷掉。"
+    },
+    {
+      "id": "j116",
+      "category": "family",
+      "title": "小孩的電量無限",
+      "punch": "我懷疑他有祕密充電座。"
+    },
+    {
+      "id": "j117",
+      "category": "family",
+      "title": "假日想什麼都不做",
+      "punch": "這想法被全家一致否決。"
+    },
+    {
+      "id": "j118",
+      "category": "family",
+      "title": "親子遊戲很療癒",
+      "punch": "療癒孩子，訓練大人的耐力。"
+    },
+    {
+      "id": "j119",
+      "category": "family",
+      "title": "今天終於有空",
+      "punch": "結果空檔拿來洗衣服。"
+    },
+    {
+      "id": "j120",
+      "category": "family",
+      "title": "我們家最會協調的",
+      "punch": "是那台永遠被搶的電視。"
+    },
+    {
+      "id": "j121",
+      "category": "family",
+      "title": "溫柔說一次就好",
+      "punch": "我後來發現要複製貼上。"
+    },
+    {
+      "id": "j122",
+      "category": "family",
+      "title": "今天要早點睡",
+      "punch": "全家一致通過，無人執行。"
+    },
+    {
+      "id": "j123",
+      "category": "family",
+      "title": "家庭會議十分順利",
+      "punch": "只花了一小時選飲料。"
+    },
+    {
+      "id": "j124",
+      "category": "family",
+      "title": "我不是在裝忙",
+      "punch": "我在等待下一個家庭任務。"
+    },
+    {
+      "id": "j125",
+      "category": "family",
+      "title": "和家人一起出門",
+      "punch": "行李多得像準備搬家。"
+    }
+  ]
+}
