@@ -1,0 +1,443 @@
+{
+  "version": 1,
+  "collection": "每日發病・原創漫畫",
+  "note": "網頁初版 16 篇原創向量漫畫；舊 iPhone 的 70 張圖尚未匯入網站。",
+  "moodLabels": {
+    "explode": "快爆炸",
+    "drained": "沒電了",
+    "sloth": "想耍廢",
+    "snark": "欠吐槽",
+    "okay": "今天還行"
+  },
+  "comics": [
+    {
+      "id": "revise-loop",
+      "title": "最後一改宇宙",
+      "punch": "客戶說最後一改，宇宙就又重啟了一次。",
+      "category": "work",
+      "moods": [
+        "explode",
+        "drained",
+        "snark"
+      ],
+      "lead": [
+        "這是最後",
+        "一個小修改"
+      ],
+      "twist": [
+        "好的，",
+        "第八季開播"
+      ],
+      "scene": "desk",
+      "reaction": "rage",
+      "tags": [
+        "設計師",
+        "改圖",
+        "工作"
+      ],
+      "index": 1
+    },
+    {
+      "id": "wallet-vanish",
+      "title": "薪水快閃族",
+      "punch": "薪水只在帳戶住了一晚，就搬去帳單家了。",
+      "category": "money",
+      "moods": [
+        "explode",
+        "snark",
+        "drained"
+      ],
+      "lead": [
+        "今天",
+        "發薪水！"
+      ],
+      "twist": [
+        "欸？",
+        "它又走了"
+      ],
+      "scene": "money",
+      "reaction": "shock",
+      "tags": [
+        "月底",
+        "帳單",
+        "錢包"
+      ],
+      "index": 2
+    },
+    {
+      "id": "last-run",
+      "title": "最後一場神話",
+      "punch": "說好最後一場，結果連鬧鐘都進下一賽季。",
+      "category": "game",
+      "moods": [
+        "sloth",
+        "snark",
+        "okay"
+      ],
+      "lead": [
+        "最後",
+        "再一場！"
+      ],
+      "twist": [
+        "這次真的",
+        "最後一場"
+      ],
+      "scene": "game",
+      "reaction": "sleep",
+      "tags": [
+        "遊戲",
+        "刷寶",
+        "夜貓"
+      ],
+      "index": 3
+    },
+    {
+      "id": "rest-permit",
+      "title": "合法擺爛許可證",
+      "punch": "今日最高成就：坐著不動也沒有內疚。",
+      "category": "rest",
+      "moods": [
+        "drained",
+        "sloth",
+        "okay"
+      ],
+      "lead": [
+        "我今天",
+        "想休息"
+      ],
+      "twist": [
+        "批准！",
+        "不用解釋"
+      ],
+      "scene": "couch",
+      "reaction": "smug",
+      "tags": [
+        "休息",
+        "耍廢",
+        "放空"
+      ],
+      "index": 4
+    },
+    {
+      "id": "meeting-hydra",
+      "title": "會議九頭蛇",
+      "punch": "會議只要有人說「我補充一下」，就會繁殖。",
+      "category": "work",
+      "moods": [
+        "explode",
+        "snark"
+      ],
+      "lead": [
+        "開會只要",
+        "十分鐘"
+      ],
+      "twist": [
+        "然後我想",
+        "補充一下"
+      ],
+      "scene": "meeting",
+      "reaction": "rage",
+      "tags": [
+        "會議",
+        "社畜",
+        "工作"
+      ],
+      "index": 5
+    },
+    {
+      "id": "fridge-hero",
+      "title": "冰箱裡的英雄",
+      "punch": "冰箱裡只有兩顆蛋，卻背負了全家的晚餐。",
+      "category": "life",
+      "moods": [
+        "drained",
+        "sloth",
+        "okay"
+      ],
+      "lead": [
+        "晚餐",
+        "吃什麼？"
+      ],
+      "twist": [
+        "兩顆蛋",
+        "靠你了"
+      ],
+      "scene": "fridge",
+      "reaction": "shock",
+      "tags": [
+        "家庭",
+        "晚餐",
+        "生活"
+      ],
+      "index": 6
+    },
+    {
+      "id": "professional-smile",
+      "title": "專業假笑修練",
+      "punch": "微笑不是同意，是讓理智先活到下班。",
+      "category": "work",
+      "moods": [
+        "explode",
+        "snark",
+        "drained"
+      ],
+      "lead": [
+        "這個設計",
+        "能再改嗎？"
+      ],
+      "twist": [
+        "當然～",
+        "靈魂離線"
+      ],
+      "scene": "desk",
+      "reaction": "smug",
+      "tags": [
+        "設計師",
+        "改稿",
+        "社畜"
+      ],
+      "index": 7
+    },
+    {
+      "id": "mrt-boss",
+      "title": "通勤副本開啟",
+      "punch": "上班路上的每一次停靠，都是人生讀取畫面。",
+      "category": "life",
+      "moods": [
+        "drained",
+        "snark"
+      ],
+      "lead": [
+        "今天一定",
+        "不會遲到"
+      ],
+      "twist": [
+        "下一站",
+        "人生重來"
+      ],
+      "scene": "train",
+      "reaction": "shock",
+      "tags": [
+        "通勤",
+        "上班",
+        "人生"
+      ],
+      "index": 8
+    },
+    {
+      "id": "cart-museum",
+      "title": "購物車博物館",
+      "punch": "收藏三十件商品，真正購買的是勇氣。",
+      "category": "money",
+      "moods": [
+        "sloth",
+        "snark",
+        "okay"
+      ],
+      "lead": [
+        "購物車",
+        "好豐富"
+      ],
+      "twist": [
+        "結帳？",
+        "我先欣賞"
+      ],
+      "scene": "money",
+      "reaction": "smug",
+      "tags": [
+        "購物",
+        "月底",
+        "省錢"
+      ],
+      "index": 9
+    },
+    {
+      "id": "legend-drop",
+      "title": "傳說級掉寶",
+      "punch": "今天掉的不是神裝，是我對睡眠的最後抵抗。",
+      "category": "game",
+      "moods": [
+        "okay",
+        "sloth",
+        "snark"
+      ],
+      "lead": [
+        "終於掉了",
+        "傳說裝！"
+      ],
+      "twist": [
+        "背包已滿",
+        "請稍後"
+      ],
+      "scene": "game",
+      "reaction": "rage",
+      "tags": [
+        "遊戲",
+        "刷寶",
+        "掉落"
+      ],
+      "index": 10
+    },
+    {
+      "id": "weekend-call",
+      "title": "週末電話恐怖片",
+      "punch": "手機一響，星期六就自動跳到星期一。",
+      "category": "rest",
+      "moods": [
+        "explode",
+        "drained",
+        "sloth"
+      ],
+      "lead": [
+        "今天",
+        "放假耶"
+      ],
+      "twist": [
+        "主管來電",
+        "恐怖片開始"
+      ],
+      "scene": "phone",
+      "reaction": "shock",
+      "tags": [
+        "週末",
+        "放假",
+        "社畜"
+      ],
+      "index": 11
+    },
+    {
+      "id": "brain-buffer",
+      "title": "腦袋緩衝中",
+      "punch": "我不是發呆，只是在替今天的人生重新連線。",
+      "category": "rest",
+      "moods": [
+        "drained",
+        "sloth",
+        "okay"
+      ],
+      "lead": [
+        "你現在",
+        "在幹嘛？"
+      ],
+      "twist": [
+        "讀取中",
+        "請勿關機"
+      ],
+      "scene": "coffee",
+      "reaction": "sleep",
+      "tags": [
+        "放空",
+        "疲勞",
+        "耍廢"
+      ],
+      "index": 12
+    },
+    {
+      "id": "cleaning-loop",
+      "title": "洗衣籃的怪獸",
+      "punch": "洗好的衣服放回床上，這叫循環經濟。",
+      "category": "life",
+      "moods": [
+        "sloth",
+        "snark",
+        "drained"
+      ],
+      "lead": [
+        "洗完衣服",
+        "要摺好喔"
+      ],
+      "twist": [
+        "我先放床上",
+        "這叫循環"
+      ],
+      "scene": "laundry",
+      "reaction": "smug",
+      "tags": [
+        "家庭",
+        "洗衣",
+        "耍廢"
+      ],
+      "index": 13
+    },
+    {
+      "id": "invoice-magic",
+      "title": "發票致富學",
+      "punch": "明明只是買杯飲料，卻期待一張紙改變命運。",
+      "category": "money",
+      "moods": [
+        "okay",
+        "snark"
+      ],
+      "lead": [
+        "這期發票",
+        "應該會中"
+      ],
+      "twist": [
+        "中獎了！",
+        "再來一次"
+      ],
+      "scene": "money",
+      "reaction": "smug",
+      "tags": [
+        "發票",
+        "生活",
+        "財運"
+      ],
+      "index": 14
+    },
+    {
+      "id": "weekend-quest",
+      "title": "親子副本沒有暫停",
+      "punch": "孩子電量永遠 100%，大人只能切省電模式。",
+      "category": "life",
+      "moods": [
+        "drained",
+        "okay",
+        "snark"
+      ],
+      "lead": [
+        "假日",
+        "一起玩！"
+      ],
+      "twist": [
+        "我沒電了",
+        "你還有嗎？"
+      ],
+      "scene": "home",
+      "reaction": "sleep",
+      "tags": [
+        "家庭",
+        "親子",
+        "假日"
+      ],
+      "index": 15
+    },
+    {
+      "id": "boss-approval",
+      "title": "已讀不回的和平",
+      "punch": "訊息沒跳出來的五分鐘，是人間最好的假期。",
+      "category": "work",
+      "moods": [
+        "drained",
+        "sloth",
+        "okay"
+      ],
+      "lead": [
+        "手機終於",
+        "安靜了"
+      ],
+      "twist": [
+        "這五分鐘",
+        "是我的"
+      ],
+      "scene": "phone",
+      "reaction": "smug",
+      "tags": [
+        "訊息",
+        "上班",
+        "喘口氣"
+      ],
+      "index": 16
+    }
+  ]
+}
