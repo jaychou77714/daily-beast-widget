@@ -224,12 +224,16 @@ filterLibrary("all");
 function viewChange(id){
 $$(".view").forEach(v=>{const active=v.id==="view-"+id;v.hidden=!active;v.classList.toggle("active",active)});
 $$(".nav-btn").forEach(b=>{const active=b.dataset.view===id;b.classList.toggle("selected",active);if(active)b.setAttribute("aria-current","page");else b.removeAttribute("aria-current")});
-window.scrollTo({top:0,behavior:"instant"});
+window.scrollTo({top:0,behavior:"auto"});
 }
 function initNav(){
 $$(".nav-btn").forEach(b=>b.addEventListener("click",()=>viewChange(b.dataset.view)));
 }
-async function getJson(path){const r=await fetch(path,{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}
+async function getJson(path){
+ const ctrl=new AbortController();const timer=setTimeout(()=>ctrl.abort(),5000);
+ try{const r=await fetch(path,{cache:"no-store",signal:ctrl.signal});if(!r.ok)throw new Error("HTTP "+r.status);return await r.json();}
+ finally{clearTimeout(timer);}
+}
 async function remoteFresh(){
 try{
 const host="https://raw.githubusercontent.com/jaychou77714/daily-beast-widget/main/daily-comic/";
@@ -249,6 +253,7 @@ try{
 const local=await getJson("./data/comics.json");
 const remote=await remoteFresh();
 stage.comics=[...(remote||[]),...(local.comics||[])];
+stage.favorites=new Set([...stage.favorites].filter(id=>stage.comics.some(c=>c.id===id)));
 if(!stage.comics.length)throw new Error("沒有漫畫內容");
 const quips=await getJson("./data/quips.json").catch(()=>({jokes:[]}));
 stage.quips=quips.jokes||[];
