@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f2e9">
+<meta name="description" content="每日發病：給疲憊大人的黑白惡搞漫畫急救站。選心情、抽厭世扭蛋、吐槽人生、收藏喜歡的原創漫畫。">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="每日發病">
+<meta name="color-scheme" content="light">
+<meta property="og:title" content="每日發病・情緒急救漫畫站">
+<meta property="og:description" content="人生太荒謬，進來笑一下。">
+<link rel="icon" type="image/svg+xml" href="./assets/app-icon.svg">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="stylesheet" href="./styles.css">
+<title>每日發病｜漫畫療癒所</title>
+</head>
+<body>
+<div class="paper-grain" aria-hidden="true"></div>
+<div class="app-shell">
+  <header class="masthead">
+    <div class="brand-lockup">
+      <div class="brand-stamp" aria-hidden="true">病</div>
+      <div><h1>每日發病<span class="mark">.</span></h1><p>不必正常，也可以過得不錯。</p></div>
+    </div>
+    <button id="about-btn" class="round-icon" aria-label="關於每日發病" title="關於本站">?</button>
+  </header>
+  <div class="ticker" role="status"><span class="ticker-tag">情緒急救站</span><span id="ticker-text">人生已經很難了，至少漫畫要好笑。</span><span class="ticker-doodle" aria-hidden="true">✳</span></div>
+  <main id="main-content">
+    <section id="view-mood" class="view active" aria-labelledby="mood-head">
+      <div class="section-intro"><div><span class="eyebrow">01 / EMERGENCY COMIC ROOM</span><h2 id="mood-head">今天想怎麼發病？</h2><p>選個心情。沒必要向誰解釋。</p></div><span class="doodle swirl" aria-hidden="true">〰</span></div>
+      <div id="mood-chips" class="mood-chips" role="group" aria-label="選擇現在的心情"></div>
+      <div id="mood-note" class="emotion-note" aria-live="polite"></div>
+      <div id="featured-comic" class="featured-comic" aria-live="polite"></div>
+      <div class="action-row"><button id="shuffle-mood" class="btn btn-primary" type="button">再救我一張 <span aria-hidden="true">↻</span></button><button id="favorite-feature" class="btn btn-quiet" type="button">♡ 收藏這篇</button></div>
+      <p class="section-footnote">沒有閱讀任務，想看幾篇就看幾篇。</p>
+    </section>
+    <section id="view-gacha" class="view" aria-labelledby="gacha-head" hidden>
+      <div class="section-intro"><div><span class="eyebrow">02 / THE EMOTIONAL CAPSULE</span><h2 id="gacha-head">厭世扭蛋機</h2><p>沒有課金，只有命運偶爾的幽默感。</p></div></div>
+      <div class="machine" id="machine">
+        <div class="machine-top"><span>發病供應中</span><span class="machine-ribbon">100% 免費</span></div>
+        <div class="capsule-glass"><div class="capsule-grid" aria-hidden="true"><span>◒</span><span>◉</span><span>◕</span><span>◒</span><span>◉</span><span>◕</span><span>◒</span><span>◉</span><span>◒</span></div><div class="machine-face" aria-hidden="true"><span>•ᴗ•</span></div></div>
+        <div class="machine-bottom"><div class="machine-coin" aria-hidden="true">病</div><button id="gacha-btn" class="btn btn-dark" type="button">轉一顆厭世扭蛋！</button></div>
+      </div>
+      <div id="gacha-result" class="gacha-result" aria-live="polite"><p class="muted center">扭蛋還沒轉。今天要抽哪一種人生？</p></div>
+      <p class="section-footnote">機率：普通 75%／稀有 20%／SSR 5%。沒有金錢價值、付費機制或連續獎勵。</p>
+    </section>
+    <section id="view-vent" class="view" aria-labelledby="vent-head" hidden>
+      <div class="section-intro"><div><span class="eyebrow">03 / TRASH TALK & RELIEF</span><h2 id="vent-head">吐槽垃圾桶</h2><p>這裡專門收納那些不想再忍的事。</p></div></div>
+      <div class="trash-illustration" aria-hidden="true"><span class="trash-burst">煩！</span><span class="trash-face">(╯°□°)╯</span><span class="trash-thing">▤</span></div>
+      <label class="form-label" for="vent-text">把煩惱打出來，丟進去。</label>
+      <textarea id="vent-text" maxlength="280" rows="4" placeholder="例如：客戶又說最後一改，這已經是第 19 次了……"></textarea>
+      <div class="vent-tools"><span id="vent-count" aria-live="polite">0 / 280</span><span>文字不會上傳，也不會儲存。</span></div>
+      <div class="tone-switch" role="group" aria-label="選擇回覆方式">
+        <button type="button" class="tone-btn selected" data-tone="roast" aria-pressed="true">😈 欠揍吐槽</button>
+        <button type="button" class="tone-btn" data-tone="gentle" aria-pressed="false">🧸 溫柔拍拍</button>
+        <button type="button" class="tone-btn" data-tone="sloth" aria-pressed="false">🫠 擺爛哲學</button>
+      </div>
+      <button type="button" id="vent-submit" class="btn btn-primary btn-full">把煩惱丟掉 ↗</button>
+      <div id="vent-reply" class="vent-reply" aria-live="polite" hidden></div>
+      <p class="section-footnote">這是本機規則式趣味回覆，不是 AI 諮詢或醫療服務。你輸入的內容不會送到伺服器。</p>
+    </section>
+    <section id="view-library" class="view" aria-labelledby="library-head" hidden>
+      <div class="section-intro"><div><span class="eyebrow">04 / MY COMIC ARCHIVE</span><h2 id="library-head">私藏發病圖鑑</h2><p>難得笑出來的東西，當然要偷偷收藏。</p></div><span class="doodle" aria-hidden="true">✦</span></div>
+      <div class="library-stats"><span id="library-total">漫畫載入中…</span><span id="library-favorite-count">♡ 0 篇最愛</span></div>
+      <label class="search-box"><span aria-hidden="true">⌕</span><input type="search" id="library-search" placeholder="搜尋社畜、遊戲、錢包、耍廢……" aria-label="搜尋漫畫"></label>
+      <div id="library-filters" class="library-filters" role="group" aria-label="漫畫分類"></div>
+      <div id="library-grid" class="library-grid" aria-live="polite"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>每日發病 · 原創漫畫療癒所</span><span>沒有日期，只有今天想笑的理由。</span></footer>
+</div>
+<nav class="bottom-nav" aria-label="主要功能">
+  <button type="button" class="nav-btn selected" data-view="mood" aria-current="page"><span class="nav-icon" aria-hidden="true">☻</span><span>情緒急救</span></button>
+  <button type="button" class="nav-btn" data-view="gacha"><span class="nav-icon" aria-hidden="true">◉</span><span>厭世扭蛋</span></button>
+  <button type="button" class="nav-btn" data-view="vent"><span class="nav-icon" aria-hidden="true">⚡</span><span>吐槽垃圾桶</span></button>
+  <button type="button" class="nav-btn" data-view="library"><span class="nav-icon" aria-hidden="true">▤</span><span>發病圖鑑</span></button>
+</nav>
+<dialog id="comic-dialog" class="comic-dialog" aria-label="漫畫詳細內容">
+  <div class="dialog-top"><span class="eyebrow">ORIGINAL COMIC</span><button id="dialog-close" class="round-icon" type="button" aria-label="關閉漫畫">×</button></div>
+  <div id="dialog-body"></div>
+  <div class="dialog-actions"><button id="dialog-fav" class="btn btn-primary" type="button">♡ 收藏</button><button id="dialog-share" class="btn btn-quiet" type="button">分享這張 ↗</button></div>
+</dialog>
+<dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title">
+  <div class="dialog-top"><span class="eyebrow">ABOUT THIS LITTLE PLACE</span><button id="about-close" class="round-icon" type="button" aria-label="關閉關於視窗">×</button></div>
+  <h2 id="about-title">每日發病是什麼？</h2>
+  <p>這是一間給疲憊大人的漫畫避難所。不需要連續簽到、不必填心情報表，也不用假裝正能量。</p>
+  <p>所有趣味漫畫和幹話均是原創內容。吐槽輸入不會送出；收藏存在這台裝置。沒有追蹤分析、帳號註冊或付費扭蛋。</p>
+  <p><strong>加入 iPhone 主畫面：</strong>Safari 按「分享」→「加入主畫面」，之後就能像 App 一樣打開。</p>
+  <p class="muted">初始漫畫庫為網頁新作；原先 iPhone Scriptable 的 70 張本機漫畫尚未匯入網站。後續 GitHub 發布的新作會自動加入。</p>
+</dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="./app.js" defer></script>
+</body>
+</html>
