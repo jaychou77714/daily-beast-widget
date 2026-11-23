@@ -1,7 +1,7 @@
 {
-  "version": 2,
+  "version": 3,
   "collection": "每日發病・原創漫畫",
-  "note": "全新精繪版：18 篇圖文對應漫畫，其中16篇以精繪劇情分鏡重製，新增2篇獨立精繪漫畫。舊 Scriptable 70 張未匯入。",
+  "note": "精繪改版：原有 16 篇全數改為高細節雙格漫畫，另新增 4 篇各自完整繪製的漫畫。總計 20 篇。舊 Scriptable 70 張尚未匯入。",
   "moodLabels": {
     "explode": "快爆炸",
     "drained": "沒電了",
@@ -544,6 +544,67 @@
       ],
       "index": 18,
       "remoteImage": "./assets/illustrations/revision-18-plus.webp",
+      "layout": "landscape",
+      "artStyle": "獨立精繪漫畫"
+    },
+    {
+      "id": "deadline-overlord",
+      "title": "改稿魔王的第八型態",
+      "punch": "工作還沒破關，需求倒是先進化成功了。",
+      "category": "work",
+      "moods": [
+        "explode",
+        "drained",
+        "snark"
+      ],
+      "lead": [
+        "我明明",
+        "快完成了"
+      ],
+      "twist": [
+        "最後一版",
+        "還有第八版"
+      ],
+      "scene": "desk",
+      "reaction": "rage",
+      "tags": [
+        "設計師",
+        "改稿",
+        "客戶"
+      ],
+      "index": 19,
+      "remoteImage": "./assets/illustrations/deadline-overlord.webp",
+      "layout": "landscape",
+      "artStyle": "獨立精繪漫畫"
+    },
+    {
+      "id": "game-escape",
+      "title": "人生逃生門",
+      "punch": "上班打不完的怪，至少遊戲裡還能重新開局。",
+      "category": "game",
+      "moods": [
+        "sloth",
+        "drained",
+        "okay",
+        "snark"
+      ],
+      "lead": [
+        "今天我要",
+        "效率超高"
+      ],
+      "twist": [
+        "還是先",
+        "打開遊戲"
+      ],
+      "scene": "game",
+      "reaction": "smug",
+      "tags": [
+        "遊戲",
+        "工作",
+        "耍廢"
+      ],
+      "index": 20,
+      "remoteImage": "./assets/illustrations/game-escape.webp",
       "layout": "landscape",
       "artStyle": "獨立精繪漫畫"
     }
