@@ -72,8 +72,8 @@ arts.set(c.id,src);return src;
 function imageSrc(c){return c.remoteImage||comicSVG(c)}
 function cardHTML(c,compact=false){
 const image=esc(imageSrc(c)),title=esc(c.title),alt=esc(c.title+"。"+c.punch);
-if(compact)return `<article class="library-card"><div class="library-art-wrap"><button class="library-art" type="button" data-open="${esc(c.id)}" aria-label="開啟${title}"><img loading="lazy" decoding="async" src="${image}" alt="${alt}"></button><button type="button" class="favorite-mini ${stage.favorites.has(c.id)?"is-favorite":""}" data-fav="${esc(c.id)}" aria-label="${stage.favorites.has(c.id)?"取消收藏":"收藏"}${title}">${stage.favorites.has(c.id)?"♥":"♡"}</button></div><div class="library-body"><h3>${title}</h3><p>${esc(short(c.punch,29))}</p></div></article>`;
-return `<div class="comic-art"><img decoding="async" src="${image}" alt="${alt}"></div><div class="comic-meta"><div class="comic-overline"><span>原創漫畫 / ${esc(categoryLabels[c.category]||"生活")}</span><span>★ ${esc((c.tags||[]).slice(0,1).join(""))}</span></div><h3>${title}</h3><p>${esc(c.punch)}</p><div class="tag-row">${(c.tags||[]).slice(0,3).map(t=>`<span class="tiny-tag"># ${esc(t)}</span>`).join("")}</div></div>`;
+if(compact)return `<article class="library-card"><div class="library-art-wrap"><button class="library-art ${c.layout==="landscape"?"landscape":""}" type="button" data-open="${esc(c.id)}" aria-label="開啟${title}"><img loading="lazy" decoding="async" src="${image}" alt="${alt}"></button><button type="button" class="favorite-mini ${stage.favorites.has(c.id)?"is-favorite":""}" data-fav="${esc(c.id)}" aria-label="${stage.favorites.has(c.id)?"取消收藏":"收藏"}${title}">${stage.favorites.has(c.id)?"♥":"♡"}</button></div><div class="library-body"><h3>${title}</h3><p>${esc(short(c.punch,29))}</p></div></article>`;
+return `<div class="comic-art ${c.layout==="landscape"?"landscape":""}"><img decoding="async" src="${image}" alt="${alt}"></div><div class="comic-meta"><div class="comic-overline"><span>原創漫畫 / ${esc(categoryLabels[c.category]||"生活")}</span><span>★ ${esc((c.tags||[]).slice(0,1).join(""))}</span></div><h3>${title}</h3><p>${esc(c.punch)}</p><div class="tag-row">${(c.tags||[]).slice(0,3).map(t=>`<span class="tiny-tag"># ${esc(t)}</span>`).join("")}</div></div>`;
 }
 function chooseComic(mood,avoidId){
 let pool=stage.comics.filter(c=>(c.moods||[]).includes(mood));
@@ -119,7 +119,7 @@ function updateDialogFavorite(){const b=$("#dialog-fav");b.textContent=stage.fav
 function openComic(id){
 const c=stage.comics.find(x=>x.id===id);if(!c)return;
 stage.dialog=id;
-$("#dialog-body").innerHTML=`<div class="comic-art"><img src="${esc(imageSrc(c))}" alt="${esc(c.title)}"></div><h2>${esc(c.title)}</h2><p>${esc(c.punch)}</p><div class="tag-row">${(c.tags||[]).map(t=>`<span class="tiny-tag"># ${esc(t)}</span>`).join("")}</div>`;
+$("#dialog-body").innerHTML=`<div class="comic-art ${c.layout==="landscape"?"landscape":""}"><img src="${esc(imageSrc(c))}" alt="${esc(c.title)}"></div><h2>${esc(c.title)}</h2><p>${esc(c.punch)}</p><div class="tag-row">${(c.tags||[]).map(t=>`<span class="tiny-tag"># ${esc(t)}</span>`).join("")}</div>`;
 updateDialogFavorite();
 const dialog=$("#comic-dialog");
 if(typeof dialog.showModal==="function")dialog.showModal();else dialog.setAttribute("open","");

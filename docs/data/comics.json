@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "collection": "每日發病・原創漫畫",
-  "note": "網頁初版 16 篇原創向量漫畫；舊 iPhone 的 70 張圖尚未匯入網站。",
+  "note": "全新精繪版：18 篇圖文對應漫畫，其中16篇以精繪劇情分鏡重製，新增2篇獨立精繪漫畫。舊 Scriptable 70 張未匯入。",
   "moodLabels": {
     "explode": "快爆炸",
     "drained": "沒電了",
@@ -35,7 +35,10 @@
         "改圖",
         "工作"
       ],
-      "index": 1
+      "index": 1,
+      "remoteImage": "./assets/illustrations/revise-loop.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "wallet-vanish",
@@ -62,7 +65,10 @@
         "帳單",
         "錢包"
       ],
-      "index": 2
+      "index": 2,
+      "remoteImage": "./assets/illustrations/wallet-vanish.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "last-run",
@@ -89,7 +95,10 @@
         "刷寶",
         "夜貓"
       ],
-      "index": 3
+      "index": 3,
+      "remoteImage": "./assets/illustrations/last-run.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "rest-permit",
@@ -116,7 +125,10 @@
         "耍廢",
         "放空"
       ],
-      "index": 4
+      "index": 4,
+      "remoteImage": "./assets/illustrations/rest-permit.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "meeting-hydra",
@@ -142,7 +154,10 @@
         "社畜",
         "工作"
       ],
-      "index": 5
+      "index": 5,
+      "remoteImage": "./assets/illustrations/meeting-hydra.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "fridge-hero",
@@ -169,7 +184,10 @@
         "晚餐",
         "生活"
       ],
-      "index": 6
+      "index": 6,
+      "remoteImage": "./assets/illustrations/fridge-hero.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "professional-smile",
@@ -196,7 +214,10 @@
         "改稿",
         "社畜"
       ],
-      "index": 7
+      "index": 7,
+      "remoteImage": "./assets/illustrations/professional-smile.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "mrt-boss",
@@ -222,7 +243,10 @@
         "上班",
         "人生"
       ],
-      "index": 8
+      "index": 8,
+      "remoteImage": "./assets/illustrations/mrt-boss.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "cart-museum",
@@ -249,7 +273,10 @@
         "月底",
         "省錢"
       ],
-      "index": 9
+      "index": 9,
+      "remoteImage": "./assets/illustrations/cart-museum.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "legend-drop",
@@ -276,7 +303,10 @@
         "刷寶",
         "掉落"
       ],
-      "index": 10
+      "index": 10,
+      "remoteImage": "./assets/illustrations/legend-drop.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "weekend-call",
@@ -303,7 +333,10 @@
         "放假",
         "社畜"
       ],
-      "index": 11
+      "index": 11,
+      "remoteImage": "./assets/illustrations/weekend-call.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "brain-buffer",
@@ -330,7 +363,10 @@
         "疲勞",
         "耍廢"
       ],
-      "index": 12
+      "index": 12,
+      "remoteImage": "./assets/illustrations/brain-buffer.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "cleaning-loop",
@@ -357,7 +393,10 @@
         "洗衣",
         "耍廢"
       ],
-      "index": 13
+      "index": 13,
+      "remoteImage": "./assets/illustrations/cleaning-loop.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "invoice-magic",
@@ -383,7 +422,10 @@
         "生活",
         "財運"
       ],
-      "index": 14
+      "index": 14,
+      "remoteImage": "./assets/illustrations/invoice-magic.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "weekend-quest",
@@ -410,7 +452,10 @@
         "親子",
         "假日"
       ],
-      "index": 15
+      "index": 15,
+      "remoteImage": "./assets/illustrations/weekend-quest.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
     },
     {
       "id": "boss-approval",
@@ -437,7 +482,71 @@
         "上班",
         "喘口氣"
       ],
-      "index": 16
+      "index": 16,
+      "remoteImage": "./assets/illustrations/boss-approval.webp",
+      "layout": "portrait",
+      "artStyle": "精繪漫畫頁・原創分鏡"
+    },
+    {
+      "id": "designer-loop-plus",
+      "title": "設計師的輪迴",
+      "punch": "所謂的「最後一點點」，通常是一整個新方向。",
+      "category": "work",
+      "moods": [
+        "explode",
+        "snark",
+        "drained"
+      ],
+      "lead": [
+        "這次終於",
+        "定稿了吧"
+      ],
+      "twist": [
+        "附件 v18",
+        "再改一版"
+      ],
+      "scene": "desk",
+      "reaction": "rage",
+      "tags": [
+        "設計師",
+        "客戶",
+        "改圖"
+      ],
+      "index": 17,
+      "remoteImage": "./assets/illustrations/designer-loop-plus.webp",
+      "layout": "landscape",
+      "artStyle": "獨立精繪漫畫"
+    },
+    {
+      "id": "revision-18-plus",
+      "title": "下班計畫蒸發術",
+      "punch": "原本的完美計畫，只差客戶一則訊息就全部歸零。",
+      "category": "work",
+      "moods": [
+        "explode",
+        "drained",
+        "snark"
+      ],
+      "lead": [
+        "準時下班",
+        "完美計畫"
+      ],
+      "twist": [
+        "不好意思",
+        "還有十八項"
+      ],
+      "scene": "desk",
+      "reaction": "shock",
+      "tags": [
+        "設計師",
+        "下班",
+        "社畜"
+      ],
+      "index": 18,
+      "remoteImage": "./assets/illustrations/revision-18-plus.webp",
+      "layout": "landscape",
+      "artStyle": "獨立精繪漫畫"
     }
-  ]
+  ],
+  "artVersion": "manga-detailed-2026-11"
 }

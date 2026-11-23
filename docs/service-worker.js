@@ -1,6 +1,6 @@
 // 每日發病 PWA 離線快取；不儲存或上傳吐槽文字。
-const CACHE="daily-comic-shell-v1";
-const RUNTIME="daily-comic-runtime-v1";
+const CACHE="daily-comic-shell-v2";
+const RUNTIME="daily-comic-runtime-v2";
 const SHELL=["./","./index.html","./styles.css","./app.js","./data/comics.json","./data/quips.json","./manifest.webmanifest","./assets/app-icon.svg","./assets/apple-touch-icon.png"];
 self.addEventListener("install",e=>{
  e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()));
